@@ -1,0 +1,6 @@
+# Project exclude paths
+/console/target/
+/plugins/base-plugin/target/
+/plugins/image-plugin/target/
+/plugins/svg-plugin/batik-codec-fix/target/
+/plugins/svg-plugin/svg-core/target/

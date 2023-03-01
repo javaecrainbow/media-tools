@@ -38,7 +38,6 @@ public class CreateDysNewsImages {
                 */
                 "10、赵继伟晃倒对手三分\n"+
                 "11、近日，香港大埔龙尾村发生碎尸案，死者系香港模特、谭仔米线创办人的儿媳蔡天凤。据港媒26日报道，警方搜索3日后已寻回死者头颅。\n"+
-
                 "12、韦德儿子获女性身份网民炸锅\n"+
                 "13、女演员练空中瑜伽被网暴造黄谣\n"+
 
@@ -246,7 +245,7 @@ public class CreateDysNewsImages {
             g2d.drawImage(img_alpha(news, 150), null, 40, fillCell.getY() + fillCell.getH() + 1 + 141);
             System.out.println("---绘制完成---");
             try {
-                ImageIO.write(bg, "png", new File("/Users/salk/Documents/小红书/" + out + ".png"));
+                ImageIO.write(bg, "png", new File("F:\\salk\\60s" + out + ".png"));
             } catch (Exception e) {
                 e.printStackTrace();
             }
